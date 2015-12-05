@@ -1,0 +1,25 @@
+{
+  "name": "yiisoft/yii2-generators",
+  "description": "gii gernators",
+  "keywords": ["yii2", "gernators", "gii", "project template"],
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "lichunqiang",
+      "email": "light-li@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.6"
+  },
+  "require-dev": {
+    "yiisoft/yii2-gii": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "light\\generators\\": ""
+    }
+  }
+}

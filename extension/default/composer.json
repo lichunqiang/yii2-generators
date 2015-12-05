@@ -1,0 +1,24 @@
+{
+  "name": "<?= $generator->vendorName ?>/<?= $generator->packageName ?>",
+  "description": "<?= $generator->description ?>",
+  "type": "<?= $generator->type ?>",
+  "keywords": <?= $generator->keywordsArrayJson ?>,
+  "license": "<?= $generator->license ?>",
+  "authors": [
+    {
+      "name": "<?= $generator->authorName ?>",
+      "email": "<?= $generator->authorEmail ?>"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*"
+  },
+  "require-dev": {
+    "fabpot/php-cs-fixer": "^1.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "<?= str_replace('\\','\\\\',$generator->namespace) ?>": "src"
+    }
+  }
+}
