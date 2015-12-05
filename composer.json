@@ -1,5 +1,5 @@
 {
-  "name": "yiisoft/yii2-generators",
+  "name": "light/yii2-generators",
   "description": "gii gernators",
   "keywords": ["yii2", "gernators", "gii", "project template"],
   "license": "MIT",
