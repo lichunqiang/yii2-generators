@@ -36,6 +36,7 @@ Once the extension is installed, simply use it in your code by  :
 
 ```php
 <?= "<?= \\{$generator->namespace}AutoloadExample::widget(); ?>" ?>
+
 ```
 
 License
