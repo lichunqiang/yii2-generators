@@ -22,8 +22,10 @@ $urlParams = $generator->generateUrlParams();
 $actionParams = $generator->generateActionParams();
 $actionParamComments = $generator->generateActionParamComments();
 
-echo '<?php ';
-?>namespace <?= StringHelper::dirname(ltrim($generator->controllerClass, '\\')) ?>;
+echo "<?php\n";
+?>
+
+namespace <?= StringHelper::dirname(ltrim($generator->controllerClass, '\\')) ?>;
 
 use Yii;
 use <?= ltrim($generator->modelClass, '\\') ?>;

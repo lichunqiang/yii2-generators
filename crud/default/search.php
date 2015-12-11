@@ -17,8 +17,10 @@ $labels = $generator->generateSearchLabels();
 $searchAttributes = $generator->getSearchAttributes();
 $searchConditions = $generator->generateSearchConditions();
 
-echo '<?php ';
-?>namespace <?= StringHelper::dirname(ltrim($generator->searchModelClass, '\\')) ?>;
+echo "<?php\n";
+?>
+
+namespace <?= StringHelper::dirname(ltrim($generator->searchModelClass, '\\')) ?>;
 
 use Yii;
 use yii\base\Model;

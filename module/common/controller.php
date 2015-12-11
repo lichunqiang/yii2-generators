@@ -6,10 +6,11 @@
 /* @var $this yii\web\View */
 /* @var $generator yii\gii\generators\module\Generator */
 
-echo '<?php ';
-?>namespace <?= $generator->getControllerNamespace() ?>;
+echo "<?php\n";
+?>
 
-use common\traits\MethodInjectionTrait;
+namespace <?= $generator->getControllerNamespace() ?>;
+
 use Yii;
 use yii\web\Controller;
 
@@ -18,8 +19,6 @@ use yii\web\Controller;
  */
 class DefaultController extends Controller
 {
-    use MethodInjectionTrait;
-
     /**
      * @inheritdoc
      */
