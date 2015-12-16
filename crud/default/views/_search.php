@@ -22,7 +22,8 @@ use yii\widgets\ActiveForm;
         'action' => ['index'],
         'method' => 'get',
         'options' => ['class' => 'form-inline mb15'],
-        'fieldConfig' => ['template' => '{input}']
+        'fieldConfig' => ['template' => '{input}'],
+        'enableClientScript' => false
     ]); ?>
 <?php
 $count = 0;
