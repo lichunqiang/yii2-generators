@@ -14,6 +14,7 @@ if ($generator->ns !== $generator->queryNs) {
 }
 
 echo '<?php ';
+
 ?>namespace <?= $generator->queryNs ?>;
 
 /**
